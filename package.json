@@ -1,0 +1,28 @@
+{
+  "name": "cypress-projekt",
+  "version": "1.0.0",
+  "description": "Testy automatyczne cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "Testy automatyczne cypress",
+    "open": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://github.com/BeniaminMroz/TestCypress"
+  },
+  "keywords": [
+    "Cypress",
+    "Test",
+    "Automation."
+  ],
+  "author": "Beniamin Mróz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BeniaminMroz/TestCypress/issues"
+  },
+  "homepage": "https://github.com/BeniaminMroz/TestCypress#readme",
+  "devDependencies": {
+    "cypress": "^9.5.1"
+  }
+}
