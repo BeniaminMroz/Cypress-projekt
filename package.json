@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://github.com/BeniaminMroz/TestCypress"
+    "url": "git+ssh://git@github.com/BeniaminMroz/TestCypress.git"
   },
   "keywords": [
     "Cypress",
