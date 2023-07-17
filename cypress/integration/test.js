@@ -9,13 +9,11 @@
  const confirmPage = new ConfirmPage()
 
 describe("E2E - Home Page", () => {
-    
-
 
     beforeEach(() => {
 
         cy.visit("http://qalab.pl.tivixlabs.com")
-        
+
       })
 
 
