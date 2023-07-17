@@ -1,6 +1,3 @@
-///// <reference types="cypress" />
-//import 'cypress-file-upload';
-
  import { SearchPage } from "../pageOjects/SearchPage";
  import { ChoosePage } from "../pageOjects/ChoosePage";
  import { SummaryPage } from "../pageOjects/SummaryPage";
@@ -16,12 +13,9 @@ describe("E2E - Home Page", () => {
 
 
     beforeEach(() => {
-        // cy.restoreLocalStorage()
+
         cy.visit("http://qalab.pl.tivixlabs.com")
-      })
-    
-      afterEach(() => {
-        // cy.saveLocalStorage()
+        
       })
 
 
